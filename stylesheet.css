@@ -254,9 +254,3 @@ footer {
 /* ---------------------------------
  * smartphone
  * ---------------------------------*/
-@media (max-width<1024px) {
-  .inner {
-    width:80%;
-    margin:0 auto;
-  }
-}
