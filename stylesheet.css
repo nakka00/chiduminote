@@ -139,6 +139,7 @@ h1 {
 .cat1-image,
 .cat1-text {
   width:450px;
+  max-width: 100%;
   height:300px;
   margin-bottom: 100px;
 }
@@ -154,6 +155,7 @@ h1 {
  * ---------------------------------*/
 .cat2-box {
   width: 450px;
+  max-width: 100%;
 }
 .cat2-text {
   font-size: 2rem;
@@ -254,3 +256,6 @@ footer {
 /* ---------------------------------
  * smartphone
  * ---------------------------------*/
+@media (max-width:768px) {
+
+}
