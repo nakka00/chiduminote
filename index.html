@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>ちづみさんのnote初級編練習</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="script.js"></script>
 </head>
@@ -16,11 +17,21 @@
       <p class="logo h-logo">CAT</p>
       <div class="nav">
         <nav>
-          <ul class="flex_box">
+          <ul class="flex_box bg-nav">
             <li><a href="#cat1">cat1</a></li>
             <li><a href="#cat2">cat2</a></li>
             <li><a href="#cat3">cat3</a></li>
           </ul>
+          <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <ul id="nav-content">
+              <li><a href="#cat1">CAT1</a></li>
+              <li><a href="#cat2">CAT2</a></li>
+              <li><a href="#cat3">CAT3</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </div>
@@ -31,7 +42,7 @@
 </section>
 <section class="cat0">
   <div class="w980">
-    <h2>吾輩は猫である。名前はまだ無い。</h2>
+    <h2>吾輩は猫である。<br class="sm_br">名前はまだ無い。</h2>
     <p class="cat0-text">どこで生れたか頓と見當がつかぬ。<br>
       何でも薄暗いじめじめした所で<br>
       ニヤーニヤー泣いて居た事丈は記憶して居る。<br>
